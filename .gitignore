@@ -77,6 +77,12 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+notebook
+jupyter*
+jupyterlab*
+jupyter-core*
+
+
 # IPython
 profile_default/
 ipython_config.py
@@ -134,5 +140,11 @@ dmypy.json
 /test
 /spec
 
+tmp/
+opencv-python
+zipp
+toolz#
+tar*
+*.gz*
 
 
