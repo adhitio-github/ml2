@@ -80,7 +80,8 @@ target/
 notebook
 jupyter*
 jupyterlab*
-jupyter-core*
+jupyter_core*
+jupyter_client
 
 
 # IPython
@@ -144,7 +145,6 @@ tmp/
 opencv-python
 zipp
 toolz#
-tar*
-*.gz*
+tar.gz
 
 
