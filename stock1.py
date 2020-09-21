@@ -22,10 +22,10 @@ import matplotlib as mpl
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
-from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.models import Sequential   #, load_model
 
-from tensorflow.keras.layers import Dense, LSTM, Dropout, GRU, Bidirectional
-from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.layers import Dense, LSTM, Dropout   #, GRU, Bidirectional
+#from tensorflow.keras.optimizers import SGD
 
 import math
 from datetime import datetime
@@ -136,6 +136,7 @@ def grafik(df,start,split,end):
     plt.ylabel(option_2+" Price")
     #plt.show
     #plt.close
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.pyplot() 
     
 #Get the data
