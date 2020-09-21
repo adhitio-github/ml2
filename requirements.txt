@@ -1,6 +1,7 @@
-keras-gpu
 streamlit==0.67.0
 numpy==1.19.1
 matplotlib==3.3.1
 pandas==1.1.2
 sklearn==0.0
+keras==2.3.1
+tensorflow==2.3.0
