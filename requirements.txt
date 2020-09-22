@@ -1,4 +1,4 @@
-tensorflow.keras==2.3.0
+keras==2.3.0
 streamlit==0.67.0
 numpy==1.19.1
 matplotlib==3.3.1
