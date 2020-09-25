@@ -77,11 +77,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-notebook
-jupyter*
-jupyterlab*
-jupyter_core*
-jupyter_client
+# notebook
+# jupyter*
+# jupyterlab*
+# jupyter_core*
+# jupyter_client
 
 
 # IPython
@@ -141,10 +141,10 @@ dmypy.json
 /test
 /spec
 
-tmp/
-opencv-python
-zipp
-toolz#
-tar.gz
+# tmp/
+# opencv-python
+# zipp
+# toolz#
+# tar.gz
 
 
