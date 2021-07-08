@@ -13,6 +13,7 @@
 #=========================================
 
 
+
 import streamlit as st 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -35,6 +36,9 @@ from sklearn.metrics import mean_squared_error
 from sklearn import preprocessing
 #import numpy.random as rnd
 import pandas_datareader.data as web
+
+from pandas_datareader import data as pdr
+import fix_yahoo_finance
 
 #import keras.backend.tensorflow_backend as tb
 from tensorflow.keras import backend 
@@ -108,8 +112,12 @@ def get_company_name():
         'None'
 
 @st.cache
+
 def load_data(option_1,option_2):
-    data = web.DataReader([option_1],'yahoo')[option_2]
+    #data = web.DataReader([option_1],'yahoo')[option_2]
+    data = pdr.get_data_yahoo([option_1],'yahoo')[option_2]
+    #data = pdr.get_data_yahoo('APPL', start='2017-04-23', end='2017-05-24')
+    
     return data
 
 #Create funtion to the proper company data and the proper timeframe from the user
