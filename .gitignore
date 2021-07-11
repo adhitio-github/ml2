@@ -1,4 +1,16 @@
-# tensorflow
+streamlit
+tensorflow-hub
+tensorflow
+
+
+six
+keras-applications
+protobuf
+gast
+*.tar.gz 
+astor
+python-dateutil
+
 pyzmq
 pyrsistent
 pyasn1-modules
