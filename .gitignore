@@ -1,3 +1,28 @@
+# tensorflow
+pyzmq
+pyrsistent
+pyasn1-modules
+decorator
+toolz
+jsonschema
+keras-nightly
+Keras_Preprocessing
+tensorboard
+tensorboard-data-server
+tensorboard-plugin-wit
+pydeck
+botocore
+pyarrow
+pillow
+pandas
+
+jedi/
+pygments/
+pyasn1/
+widgetsnbextension/
+jupyter-client
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -77,11 +102,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# notebook
-# jupyter*
-# jupyterlab*
-# jupyter_core*
-# jupyter_client
+notebook
+jupyter*
+jupyterlab*
+jupyter_core*
+jupyter_client
 
 
 # IPython
