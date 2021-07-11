@@ -1,12 +1,17 @@
 import streamlit as st
+st.set_option('deprecation.showfileUploaderEncoding', False)
+
 import itertools
 import os
 #import matplotlib.pylab as plt
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
-
 import streamlit.components.v1 as stc
+
+import io
+file_buffer = st.file_uploader(...)
+text_io = io.TextIOWrapper(file_buffer)
 
 from tensorflow.keras.models import load_model
 
