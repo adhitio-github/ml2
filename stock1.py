@@ -1,16 +1,17 @@
 import streamlit as st
-#import itertools
-#import os
+import itertools
+import os
 #import matplotlib.pylab as plt
 import numpy as np
-#import tensorflow as tf
+import tensorflow as tf
 import tensorflow_hub as hub
 
-#import streamlit.components.v1 as stc
+import streamlit.components.v1 as stc
+
 from tensorflow.keras.models import load_model
 
 # File Processing Pkgs
-#import pandas as pd
+import pandas as pd
 #import docx2txt
 from PIL import Image  
 #from PyPDF2 import PdfFileReader
